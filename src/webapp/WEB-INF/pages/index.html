@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<div>
+    <h1>Welcome</h1>
+    <h2 th:utext="${message}">...</h2>
+
+    <a th:href="@{/users}">User List</a>
+</div>
+</body>
+</html>
